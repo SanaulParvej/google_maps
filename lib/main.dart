@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_screen.dart';
+import 'package:my_maps_app/gps_home_screen.dart';
 
 void main(){
   runApp(GoogleMapsAps());
@@ -11,7 +11,7 @@ class GoogleMapsAps extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: GpsHomeScreen(),
     );
   }
 }
